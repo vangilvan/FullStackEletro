@@ -2,7 +2,7 @@ import Categorias from '../../Components/Categorias/Categorias';
 import Produtos from '../../Components/Produtos/Produtos';
 import { Row } from 'react-bootstrap';
 
-export default function PageProdutos() {
+function PageProdutos() {
 
     return (
         <Row>
@@ -13,3 +13,4 @@ export default function PageProdutos() {
         </Row>
     );
 }
+export default PageProdutos;

@@ -27,6 +27,9 @@ function BaseMenu(props) {
                         <Nav.Link as={Link} href="/pedidos" to="/pedidos">Pedidos</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
+                        <Nav.Link as={Link} href="/vendidos" to="vendidos">Vendidos</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
                         <Nav.Link as={Link} href="/contatos" to="/contatos" >Contato</Nav.Link>
                     </Nav.Item>
                 </Nav>

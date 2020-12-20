@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Contatos from './pages/Contatos';
 import Lojas from './pages/Lojas';
 import PageProdutos from './pages/Produtos';
+import PageVendidos from './pages/Vendidos';
 import PagePedidos from './pages/Pedidos';
 
 
@@ -15,6 +16,7 @@ function Routes() {
             <Route exact path="/contatos" component={Contatos} />
             <Route exact path="/lojas" component={Lojas} />
             <Route exact path="/Pedidos" component={PagePedidos} />
+            <Route exact path="/Vendidos" component={PageVendidos} />
             
         </Switch>
     );
